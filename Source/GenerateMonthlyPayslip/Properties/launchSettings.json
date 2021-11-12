@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GenerateMonthlyPayslip": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Sally Young\" 100000"
+    }
+  }
+}
