@@ -5,15 +5,16 @@
 
     <IsPackable>false</IsPackable>
 
-    <AssemblyVersion>1.0.0.19</AssemblyVersion>
+    <AssemblyVersion>1.0.0.30</AssemblyVersion>
 
-    <FileVersion>1.0.0.19</FileVersion>
+    <FileVersion>1.0.0.30</FileVersion>
 
     <RootNamespace>GenerateMonthlyPayslip</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -27,6 +28,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GenerateMonthlyPayslip\GenerateMonthlyPayslip.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DomainModel\" />
   </ItemGroup>
 
 </Project>
